@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .blue-color{
 color: royalblue;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 
 
 }
@@ -24,4 +28,19 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.exprience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+box-shadow: 10ox 10px 40px greenyellow;
+
+}
+exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 10px solid;
 }
